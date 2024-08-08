@@ -1,0 +1,33 @@
+#navbar{
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+    text-decoration: none;
+}
+#nav{
+    text-decoration: none;
+}
+#dropdownMenuButton{
+    background-color: black;
+    border-color: black;
+}
+#home{
+    padding-left: 500px;
+}
+.overlay{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#services{
+    width: 500px; 
+}
+#community{
+    padding-left: 350px;
+}
+#cards{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.img-fluid{
+    border-radius: 70px;
+}

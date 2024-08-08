@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid" id="nav">
+          <h5 class="ps-5">BRAND NAME</h5>
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <h6 class="pt-2" id="home">Home</h6>
+              <h6 class="ps-3 pt-2">About</h6>
+              <div class="dropdown">
+                <button
+                  class="btn btn-primary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-mdb-dropdown-init
+                  data-mdb-ripple-init
+                  aria-expanded="false"
+                >
+                  Services
+                </button>
+                
+              </div>
+              <h6 class="pt-2">Work</h6>
+              <h6 class="ps-3 pt-2">Contact us</h6>
+              <button type="button" class="btn btn-dark ms-5" data-mdb-ripple-init data-mdb-ripple-color="dark">Log in</button>
+              <button type="button" class="btn btn-light" data-mdb-ripple-init>Sign up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="row">
+        <div class="col-12">
+            <img src="https://as2.ftcdn.net/v2/jpg/02/52/82/57/1000_F_252825701_rn6HkZcCUfjppdThPG7rzowStuu0VkRC.jpg" width="100%" height="400px" alt="">
+        </div>
+        <div class="overlay">
+            <h2>We make your web <br> product awesome</h2>
+            <h4>we are a bunch of imaginative and experimental souls <br> and make pretty good products.</h4>
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init>Get Started</button>
+        </div>
+    </div>
+    <h2 class="text-center mt-5">Our Services</h2>
+    <div class="col-12">
+        <div class="row">
+            <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>  
+                    <div class="col-1 bg-light pe-4 text-center" id="services">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, quam perferendis aliquam ipsam, inventore culpa nobis possimus, unde alias nam animi quae ullam omnis labore quos doloribus sequi repellat amet. <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio ipsum unde veritatis quos sequi odit expedita voluptatem nihil veniam, animi explicabo, dolores deserunt! Dolorem ullam quo temporibus voluptas vitae.</div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+        </div>
+    </div>
+    <section id="community">
+        <div class="container mt-3">        
+            <div class="row">
+                <div class="col-md-2 mb-1">
+                    <div class="card text-center">
+                        <div class="card-body bg-dark">
+                            <i class="bi bi-people fs-1 text-warning"></i>
+                            <i class="fa-solid fa-crop" style="color: #fafafa;"></i>
+                            <h5 class="card-title mt-3 text-warning">Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body bg-dark">
+                            <i class="bi bi-controller  text-warning"></i>
+                            <i class="fa-brands fa-stack-overflow mt-4" style="color: #fcfcfc;"></i>
+                            <h5 class="card-title mt-3 text-warning pt-3">Develop</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body bg-dark">
+                            <i class="bi bi-chat-dots fs-1 text-warning"></i>
+                            <i class="fa-solid fa-user-plus" style="color: #f7f7f8;"></i>
+                            <h5 class="card-title mt-3 text-warning">Marketing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body bg-dark">
+                            <i class="bi-headphones fs-1 text-warning"></i>
+                            <i class="fa-solid fa-bullseye" style="color: #fafafa;"></i>
+                            <h5 class="card-title mt-3 text-warning">Strategy</h5>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3 text-center">
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis fuga voluptas culpa. Vero optio quaerat temporibus eligendi quae iure? Illo itaque a sit facilis placeat, illum tenetur optio veritatis tempora!
+        </div>
+        <div class="col-3 text-center">
+            <img width="200px" height="200px" style="border-radius: 50%;" src="https://www.pitman-training.com/wp-content/uploads/2022/07/adobestock_225442477-1200x800.webp" alt="">
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <br><br><br><br>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3 text-center">
+            <img width="200px" height="200px" style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1irJA6pYjo1uvduj-QSYfQQNBckZEVrpbA&s" alt="">
+        </div>
+        <div class="col-3 text-center">
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis fuga voluptas culpa. Vero optio quaerat temporibus eligendi quae iure? Illo itaque a sit facilis placeat, illum tenetur optio veritatis tempora!
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <br><br><br><br>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3 text-center">
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis fuga voluptas culpa. Vero optio quaerat temporibus eligendi quae iure? Illo itaque a sit facilis placeat, illum tenetur optio veritatis tempora!
+        </div>
+        <div class="col-3 text-center">
+            <img width="200px" height="200px" style="border-radius: 50%;" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/gzZpBDV3nX1AWytfLhbgs/d528553697d959544c8ca5b80b6d8beb/web_developer.png?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000" alt="">
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <br><br>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
